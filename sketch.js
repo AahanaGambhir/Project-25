@@ -17,7 +17,7 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-	paper = new Paper(200, 400, 25)
+	paper = new Paper(200, 6, 25)
 	ground = new Ground(400, 650, 800, 15);
 	dustbin1 = new Dustbin(705, 590, 10, 100);
 	dustbin2 = new Dustbin(585, 590, 10, 100);

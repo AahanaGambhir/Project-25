@@ -16,13 +16,13 @@ class Paper {
     }
     display() {
 
-       // Push()
+        //Push()
         translate(this.body.position.x, this.body.position.y);
-        rectMode(CENTER);
+        imageMode(CENTER);
         strokeWeight(3);
         fill("pink");
-        image(this.image, 200, 400, 50, 50)
-        ellipse(0,0, this.r, this.r)
+        image(this.image, 0, 0, 50, 50)
+        //ellipse(0,0, this.r, this.r)
        // pop()
     }
 }
